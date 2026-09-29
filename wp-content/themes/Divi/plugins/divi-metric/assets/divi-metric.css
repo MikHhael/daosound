@@ -1,0 +1,214 @@
+.notice.divi-metric p {
+  font-size: 16px !important;
+  font-weight: 700;
+  line-height: 38px;
+  padding: 10px 0 10px 110px;
+}
+
+.notice.divi-metric p button {
+  font-weight: 400;
+}
+
+.notice.divi-metric {
+  background-image: url('/wp-content/themes/Divi/plugins/divi-metric/assets/feedback.svg');
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: left 15px center;
+}
+
+
+.divi-metric-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 999rem;
+  box-shadow: 0 4px 15px 0 rgb(116 79 168 / 75%);
+  transition: all .4s ease-in-out;
+  background-size: 300% 100%;
+  background-image: linear-gradient(90deg,#667eea,#764ba2,#6b8dd6,#8e37d7);
+  
+}
+.divi-metric-btn:hover {
+  background-position: 100% 0;
+}
+.divi-metric-btn span {
+  color: #f2f4f9;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#divi-metric-body {
+  visibility: hidden;
+  opacity: 0;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition-property: opacity, visibility;
+  min-height: 300px;
+  min-width: 100px;
+  width: 290px;
+  height: 430px;
+  background-color: white;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, .2) 0px 0px 0.428571rem 0px;
+}
+
+.divi-metric_header {
+  background: rgb(29, 158, 249) !important;
+  
+  padding: 0 16px;
+  border-radius: 8px 8px 0 0;
+}
+.divi-metric_row {
+  display: flex;
+  align-content: stretch;
+  -webkit-box-align: center;
+  align-items: center;
+  min-height: 2rem;
+}
+
+.divi-metric_title {
+  font-weight: 700;
+  text-align: center;
+  color: #fff !important;
+  letter-spacing: 0.0214286rem;
+  line-height: 1.5;
+  font-size: 1.07143rem;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  margin-right: 2rem;
+  margin-left: 4rem;
+}
+
+.divi-metric_close {
+  width: 2rem;
+  height: 2rem;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  transition: border-color 0.25s ease-in-out 0s, box-shadow 0.1s ease-in-out 0s, background-color 0.25s ease-in-out 0s, color 0.25s ease-in-out 0s;
+  margin: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+  overflow: hidden;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: inherit;
+  font-weight: 400;
+  -webkit-font-smoothing: subpixel-antialiased;
+  box-sizing: border-box;
+  user-select: none;
+  height: 32px;
+  line-height: 30px;
+  font-size: 12px;
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+  width: 32px;
+  color: #fff !important;
+}
+
+.divi-metric_close:hover {
+  background-color: rgba(104, 115, 125, 0.2);
+  color: rgb(73, 84, 92);
+}
+
+.divi-metric_body {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.divi-metric_body-textarea {
+  appearance: none;
+  transition: border-color 0.25s ease-in-out 0s, box-shadow 0.1s ease-in-out 0s, background-color 0.25s ease-in-out 0s, color 0.25s ease-in-out 0s;
+  border: 1px solid rgb(216, 220, 222);
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  vertical-align: middle;
+  font-family: inherit;
+  padding: 0.714286em 0.857143em;
+  min-height: 120px;
+  line-height: 1.28571;
+  font-size: 14px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(47, 57, 65);
+  resize: none;
+  overflow: auto;
+  cursor: auto;
+  margin: 15px 0;
+}
+
+.divi-metric_body-textarea:hover {
+  border-color: rgb(104, 115, 125) !important;
+}
+.divi-metric_body-textarea:focus {
+  box-shadow: rgb(153, 153, 153, 40%) 0px 0px 0px 0.214286rem !important;
+}
+
+
+.divi-metric_body .small {
+ font-size: 12px;
+}
+
+.divi-metric_body-submit-wrap {
+  position: relative;
+  height: 2.28571rem;
+  margin-bottom: 4px;
+}
+.divi-metric-error {
+  position: absolute;
+  left: 0;
+  color: #d63638;
+  font-size: 12px;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: 30px;
+}
+.divi-metric_body-submit {
+  position: absolute;
+  right: 0;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  transition: border-color 0.25s ease-in-out 0s, box-shadow 0.1s ease-in-out 0s, background-color 0.25s ease-in-out 0s, color 0.25s ease-in-out 0s;
+  margin: 0px;
+  border: 1px solid rgb(29, 158, 249);
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: inherit;
+  font-weight: 400;
+  -webkit-font-smoothing: subpixel-antialiased;
+  box-sizing: border-box;
+  user-select: none;
+  padding: 0px 1.07143em;
+  font-size: 14px;
+  background-color: transparent;
+  color: rgb(29, 158, 249) !important;
+  height: 30px;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  line-height: 2.57143rem !important;
+}
+
+.divi-metric_body-submit:hover,
+.divi-metric_body-submit:active,
+.divi-metric_body-submit:focus {
+  color: rgb(242, 244, 249) !important;
+  background-color: rgb(29, 158, 249) !important;
+  border-color: rgb(29, 158, 249) !important;
+}

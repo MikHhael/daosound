@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    {
+      "slug": "instant-images/instant-images.php",
+      "url": "https://downloads.wordpress.org/plugin/instant-images.zip"
+    },
+    {
+      "slug": "supreme-modules-pro-for-divi/supreme-modules-pro-for-divi.php",
+      "url": "https://api.turnkey.reg.ru/wordpress/plugins/supreme-modules-pro-for-divi.zip"
+    },
+    {
+      "slug": "supreme-modules-for-divi/supreme-modules-for-divi.php",
+      "url": "https://downloads.wordpress.org/plugin/supreme-modules-for-divi.zip"
+    }
+  ]
+}

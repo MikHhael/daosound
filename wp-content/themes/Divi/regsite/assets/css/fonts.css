@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter Italic'), local('Inter-Italic'),
+        url('/wp-content/themes/Divi/regsite/assets/fonts/Inter-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter Italic'), local('Inter-Italic'),
+        url('/wp-content/themes/Divi/regsite/assets/fonts/Inter-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter Italic'), local('Inter-Italic'),
+        url('/wp-content/themes/Divi/regsite/assets/fonts/Inter-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}

@@ -1,0 +1,315 @@
+.et-fb-page-creation-card-wrapper:nth-child(2), .et-fb-settings-modal-module-credits,
+.et-cloud-toggle,
+.et-fb-button.et-fb-button.et-fb-button--info.et-fb-ai-options-button,
+.et-fb-settings-option-ai__button,
+.et-fb-right-click-menu__item.et-fb-right-click-menu__item--generate_content_with_ai,
+.et-code-buttons-wrapper
+{
+    display:none !important;
+}
+#et-cloud-app .et-cloud-app-content-wrapper .et-cloud-app-sort-menu {
+    margin-right: 0 !important;
+}
+
+.php-error #adminmenuback, .php-error #adminmenuwrap {
+    margin-top: 0 !important;
+}
+
+/*  AdminBar  */
+#wpadminbar #wp-admin-bar-support-link {
+    background-color: #066bc6;
+}
+#wpadminbar #wp-admin-bar-support-link .ab-icon:before {
+    content: '\f223';
+    width: 28px;
+    font-size:24px;
+    color: #fff;
+}
+#wpadminbar #wp-admin-bar-support-link:hover {
+    color: inherit;
+}
+
+#wp-admin-bar-regru-lk-link a.ab-item {
+    display: flex;
+    align-items: center;
+}
+#wp-admin-bar-regru-lk-link a.ab-item img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+#wpadminbar #wp-admin-bar-video .ab-icon:before {
+    content: '\f126';
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+.admin_bar_menu__video .ab-item.ab-empty-item {
+    cursor: pointer !important;
+}
+#wpadminbar .admin_bar_menu__video span.ab-title {
+    padding-left: 18px;
+}
+#wpadminbar #wp-admin-bar-video .ab-icon:before:hover {
+    color: #00b9eb !important;
+}
+
+#wpadminbar #wp-admin-bar-settings-link {
+    background-color: inherit;
+}
+#wpadminbar #wp-admin-bar-settings-link .ab-icon {
+    top: 1px;
+}
+#wpadminbar #wp-admin-bar-settings-link .ab-icon:before {
+    content: '\f111';
+    width: 28px;
+    font-size:20px;
+    color: #fff;
+}
+#wpadminbar #wp-admin-bar-settings-link:hover {
+    color: inherit;
+}
+
+
+#wp-admin-bar-et-disable-visual-builder {
+    background-color: #7e3bd0 !important;
+    height: 32px;
+}
+#wp-admin-bar-et-disable-visual-builder a:before {
+    font-family: ETmodules !important;
+    content: "\e625";
+    font-size: 30px !important;
+    width: 28px;
+    margin-top: -3px;
+    color: #fff !important;
+}
+#wp-admin-bar-et-disable-visual-builder:hover a:before {
+    color: #7e3bd0 !important;
+}
+#wp-admin-bar-et-disable-visual-builder a:hover,
+#wp-admin-bar-et-disable-visual-builder:hover a {
+    transition: background-color 0.5s ease;
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    color: #fff !important;
+}
+
+.no-display {
+    display: none !important;
+}
+.ocdi__gl-header_sticky {
+    position: fixed;
+    top: 0;
+    width: calc(100% - 280px) !important;
+    z-index: 999;
+    margin: 32px 40px 20px 0;
+    box-shadow: 0 8px 6px -6px gray;
+    animation:animatetop 0.4s;
+}
+@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+@media (max-width: 960px) { 
+    .ocdi__gl-header_sticky {
+        width: calc(100% - 156px) !important;
+    }
+}
+@media (max-width: 782px) { 
+    .ocdi__gl-header_sticky {
+        width: calc(100% - 110px) !important;
+        margin-top: 46px;
+    }
+}
+
+
+/* Divi Metric Notice */ 
+.dm-notice {
+	color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+
+.body-blackout {
+    position: fixed !important;
+    z-index: 999999 !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: rgba(0, 0, 0, .65) !important;
+    display: none !important;
+}
+.body-blackout.is-blacked-out {
+    display: block !important;
+}
+
+.popup-modal {
+    height: 365px;
+    width: 650px;
+    background-color: #fff;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 300ms ease-in-out;
+    z-index: 9999999;
+}
+.popup-modal.is--visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+    
+.popup-modal__close {
+    position: absolute;
+    color: #fff !important;
+    right: 8px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.body-noscroll-modal {
+    overflow: hidden;
+}
+
+
+.et-social-viber a.icon:before {
+    font-family: FontAwesome!important;
+    font-weight: 400!important;
+    content: "\F409";
+}
+
+/* Remove change theme from customizer */
+li#accordion-section-themes {
+    display: none !important;
+}
+
+
+.et_pb_value_text.et_pb_on_value,
+.et_pb_value_text.et_pb_off_value {
+  font-size: 10px !important;
+}
+
+/**
+ * Make Divi mobile menu scrollable
+ */
+.mobile_nav.opened .et_mobile_menu {
+  max-height: 80vh;
+  overflow-y: scroll;
+  -overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+/**
+ * Fix module blocks
+ */
+.et-fb-settings-options-tab ul {
+	display: flex !important;
+	flex-wrap: wrap !important;
+}
+.et-fb-settings-options-tab ul li {
+	white-space: pre-line !important;
+}
+.et-fb-settings-options-tab ul li div {
+	position: relative !important;
+}
+.et-fb-settings-options-tab ul li div svg {
+	position: absolute !important;
+    top: 0 !important;
+}
+
+.et-db #et-boc .et-l .et-fb-button-group {
+    justify-content: flex-end !important;
+}
+
+
+#wp-admin-bar-et-use-visual-builder a:before {
+  font-family: ETmodules !important;
+}
+
+.et-cloud-app-layouts-grid-item-thumb-img.et-cloud-app-item-type-layout {
+    min-height: 140px;
+}
+.et-cloud-app-layouts-grid-item-thumb-img.et-cloud-app-item-type-layout img {
+    max-width: 100%; height: auto;
+}
+
+.et-cloud-app-layout-pack-layouts-list {
+    display: flex;
+    flex-direction: column;
+}
+.et-cloud-app-layout-pack-layouts-list a.et-cloud-app-layouts-grid-item {
+    max-width: none !important;
+    width: 100% !important;
+    height: auto !important;
+}
+.et-cloud-app-layout-pack-layouts-list .et-cloud-app-layouts-grid-item-content {
+    display: flex !important;
+    flex-direction: column;
+}
+.et-cloud-app-layout-pack-layouts-list .et-cloud-app-layouts-grid-item-content .et-cloud-app-layouts-grid-item-thumb-img {
+    position: relative !important;
+    margin-bottom: -5px !important;
+}
+.et-cloud-app-layout-pack-layouts-list .et-cloud-app-layouts-grid-item-content .et-cloud-app-layouts-grid-item-title {
+    position: relative !important;
+}
+#et-cloud-app .et-cloud-app-content-wrapper .et-cloud-app-layouts-grid-item-title .et-cloud-app-button .et-common-icon--three-dots svg {
+    margin-top: 4px !important;
+    margin-left: 0px !important;
+}
+.et-cloud-help-button,
+.et-cloud-item-preview-icons.et-cloud-item-preview-icons-no-dots,
+.et-cloud-help-button,
+#et-cloud-app .et-cloud-app-layout-screenshot .et-cloud-app-layout-cta-buttons .et-common-button--secondary,
+.et-cloud-app-layout-details h2,
+.et-cloud-app-view-modes,
+.et-fb-modal-settings--modules_library .et-cloud-filter,
+.et-fb-modal-settings--modules_library .et-cloud-app-view-header--left h2,
+.et-fb-multiple-checkbox-import-to-cloud,
+.modules_library .et-fb-button.et-fb-help-button,
+.et-fb-form .et-fb-modal__tab-footer,
+.et-cloud-app-layout-description .et-cloud-app-meta-icons,
+.et-code-snippets-library-btns-wrap,
+.et-cloud-app__upsell
+{
+    display: none !important;
+}
+
+#et-cloud-app .et-cloud-app-content-wrapper .et-cloud-app-sort-menu {
+    width: 140px !important;
+}
+
+#et-cloud-app .et-cloud-app-content-wrapper .et-cloud-app-layouts-grid-item-thumb {
+    padding-top: 50% !important;
+}
+
+#et-cloud-app .et-cloud-app-layout-screenshot {
+    height: 325px !important;
+}
+#et-cloud-app .et-cloud-app-content-wrapper .et-cloud-app-layouts-grid-item-pack {
+    height: 130px;
+}
+@media screen and (max-width: 1024px) {
+    #et-cloud-app .et-cloud-app-content-wrapper .et-cloud-app-layouts-grid-item-pack {
+        height: 115px;
+    }
+}
+
+#et-cloud-app .et-cloud-app-content-wrapper .et-cloud-app-layouts-grid-item {
+    max-width: calc(100% / 2 - 32px) !important;
+    width: calc(100% / 2 - 32px) !important;
+}
+
+#et-cloud-app .et-cloud-app-content-wrapper .et-cloud-app-layout-pack-layouts-list .et-cloud-app-layouts-grid-item {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.et-cloud-app-view-header--left h2 {
+    text-transform: none !important;
+}
