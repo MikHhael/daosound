@@ -185,28 +185,31 @@ body.custom-background { background-color: #f7f7f7; }
 				<div class="et-pb-contact-message"></div>
 				
 				<div class="et_pb_contact">
-					<form class="et_pb_contact_form clearfix" method="post" action="/contacts/">
+					<form class="et_pb_contact_form clearfix" action="https://api.web3forms.com/submit" method="POST">
+	<input type="hidden" name="access_key" value="a4c82e4d-64b7-4e2f-ba24-5234d6ee8a12">
+	<input type="hidden" name="subject" value="Новое сообщение со страницы Контакты (daosound.ru)">
+	<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 						<p class="et_pb_contact_field et_pb_contact_field_0 et_pb_contact_field_last" data-id="name" data-type="input">
 				
 				
 				
 				
 				<label for="et_pb_contact_name_0" class="et_pb_contact_form_label">Имя</label>
-				<input type="text" id="et_pb_contact_name_0" class="input" value="" name="et_pb_contact_name_0" data-required_mark="required" data-field_type="input" data-original_id="name" placeholder="Имя">
+				<input type="text" id="et_pb_contact_name_0" class="input" value="" name="Имя" data-required_mark="required" data-field_type="input" data-original_id="name" placeholder="Имя">
 			</p><p class="et_pb_contact_field et_pb_contact_field_1 et_pb_contact_field_last" data-id="email" data-type="email">
 				
 				
 				
 				
 				<label for="et_pb_contact_email_0" class="et_pb_contact_form_label">Электронный адрес</label>
-				<input type="text" id="et_pb_contact_email_0" class="input" value="" name="et_pb_contact_email_0" data-required_mark="required" data-field_type="email" data-original_id="email" placeholder="Электронный адрес">
+				<input type="text" id="et_pb_contact_email_0" class="input" value="" name="email" data-required_mark="required" data-field_type="email" data-original_id="email" placeholder="Электронный адрес">
 			</p><p class="et_pb_contact_field et_pb_contact_field_2 et_pb_contact_field_last" data-id="subject" data-type="select">
 				
 				
 				
 				
 				<label for="et_pb_contact_subject_0" class="et_pb_contact_form_label">Тема</label>
-				<select id="et_pb_contact_subject_0" class="et_pb_contact_select input" name="et_pb_contact_subject_0" data-required_mark="required" data-field_type="select" data-original_id="subject">
+				<select id="et_pb_contact_subject_0" class="et_pb_contact_select input" name="Тема" data-required_mark="required" data-field_type="select" data-original_id="subject">
 						<option value="">Тема</option><option value="Заказ ролика">Заказ ролика</option><option value="Заказ диктора">Заказ диктора</option><option value="Общие вопросы">Общие вопросы</option>
 					</select>
 			</p><p class="et_pb_contact_field et_pb_contact_field_3 et_pb_contact_field_last" data-id="message" data-type="text">
@@ -215,18 +218,12 @@ body.custom-background { background-color: #f7f7f7; }
 				
 				
 				<label for="et_pb_contact_message_0" class="et_pb_contact_form_label">Сообщение</label>
-				<textarea name="et_pb_contact_message_0" id="et_pb_contact_message_0" class="et_pb_contact_message input" data-required_mark="required" data-field_type="text" data-original_id="message" placeholder="Сообщение"></textarea>
+				<textarea name="Сообщение" id="et_pb_contact_message_0" class="et_pb_contact_message input" data-required_mark="required" data-field_type="text" data-original_id="message" placeholder="Сообщение"></textarea>
 			</p>
 						<input type="hidden" value="et_contact_proccess" name="et_pb_contactform_submit_0">
-						<div class="et_contact_bottom_container">
-							
-			<div class="et_pb_contact_right">
-				<p class="clearfix">
-					<span class="et_pb_contact_captcha_question">15 + 2</span> = <input type="text" size="2" class="input et_pb_contact_captcha" data-first_digit="15" data-second_digit="2" value="" name="et_pb_contact_captcha_0" data-required_mark="required" autocomplete="off">
-				</p>
-			</div>
-							<button type="submit" name="et_builder_submit_button" class="et_pb_contact_submit et_pb_button" data-icon="$">Отправить сообщение</button>
-						</div>
+			<div class="et_contact_bottom_container" style="display: flex; justify-content: flex-end;">
+	<button type="submit" class="et_pb_contact_submit et_pb_button" onclick="this.form.submit();">Отправить сообщение</button>
+</div>
 						<input type="hidden" id="_wpnonce-et-pb-contact-form-submitted-0" name="_wpnonce-et-pb-contact-form-submitted-0" value="57972b09c2"><input type="hidden" name="_wp_http_referer" value="/contacts/">
 					</form>
 				</div>
